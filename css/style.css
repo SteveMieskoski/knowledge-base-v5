@@ -781,11 +781,9 @@ aside .sidebar-primary-category ul li > a > div.active p {
 }
 .wrap-post-body p em {
   font-weight: 500;
-  color: #f00;
 }
 .wrap-post-body p strong {
-  color: #f00;
-  font-weight: 700;
+  font-weight: 600;
 }
 .wrap-post-body h1 {
   font-size: 24px;
@@ -843,11 +841,11 @@ aside .sidebar-primary-category ul li > a > div.active p {
   margin-top: 5px;
 }
 .wrap-post-body ul li {
-  list-style-type: none;
+  list-style-type: disc;
   font-size: 14px;
   margin-bottom: 15px;
-  padding: 5px 0px 5px 10px;
-  border-left: 3px solid #f1f1f1;
+  margin-left: 25px;
+  padding: 5px 0px 5px 0px;
 }
 .wrap-post-body .reminder {
   padding: 33px;
