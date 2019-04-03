@@ -6,14 +6,13 @@
 title: MyEtherWallet Knowledge Base
 subtitle:
 description: MyEtherWallet Knowledge Base
-keywords: ethereum
+keywords: ethereum myetherwallet eth ether mew
 author: MyEtherWallet.com
 language: en
 timezone: America/Los_Angeles
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-# url: http://localhost.com
 url: http://kb.mewtest.com/
 root: /
 permalink: /posts/:title/
@@ -72,19 +71,14 @@ per_page: 10
 pagination_dir: page
 
 # Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-# theme: landscape
+## Themes:
 theme: mew5
 theme_config: ./themes/_config.yml
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/SteveMieskoski/knowledge-base-v5.git  #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  # branch: [gh-pages] #published
-  # message: [message]  #leave this blank
+  repo: https://github.com/MyEtherWallet/knowledge-base-v5.git
 
 
 alias:
